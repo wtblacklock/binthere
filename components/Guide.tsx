@@ -12,7 +12,7 @@ const Guide: React.FC = () => {
             You need <span className="text-[#28A745]">peace of mind</span>.
           </h2>
           <p className="text-xl md:text-2xl text-[#4A5D4E] font-medium leading-relaxed">
-            Binthere captures what matters, organizes it automatically, and gives you confidence that the memory is safe.
+            Binthere captures what matters, organizes it automatically, and gently guides you through the decision so you feel confident letting the paper go.
           </p>
         </div>
         

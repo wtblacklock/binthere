@@ -24,7 +24,10 @@ const Problem: React.FC = () => {
                 Every week brings home more drawings and school projects. Storage becomes stress. Decisions become exhausting. 
               </p>
               <p>
-                Throwing things away never feels right. There is no simple system for preserving the memory while letting go of the paper.
+                Throwing things away never feels right, even when you know you can't keep it all. The problem isn't the paper. It's the lack of closure. There's no simple system to help you save the memory, make the decision, and move on confidently.
+              </p>
+              <p>
+                Binthere steps in at that moment and helps you close the loop.
               </p>
             </div>
           </div>
