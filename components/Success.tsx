@@ -3,10 +3,10 @@ import React from 'react';
 
 const Success: React.FC = () => {
   const bullets = [
-    "A private timeline of creativity over time.",
-    "More physical space and less clutter.",
-    "Confidence that memories are preserved intentionally.",
-    "Peace of mind when it’s time to recycle the originals."
+    "A private timeline that shows your child's creativity unfolding over time.",
+    "More physical space and less visual noise.",
+    "Confidence that memories are preserved with intention, not accident.",
+    "Peace of mind when it's time to let the originals go."
   ];
 
   return (
@@ -14,7 +14,7 @@ const Success: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div>
           <h2 className="text-5xl md:text-6xl font-extrabold tracking-tighter leading-tight mb-12">
-            A <span className="text-[#28A745]">calmer home</span> and a meaningful record of growth.
+            A calmer home and a meaningful record of growth.
           </h2>
           <ul className="space-y-8">
             {bullets.map((bullet, idx) => (

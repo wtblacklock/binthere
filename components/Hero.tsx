@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <div className="max-w-xl">
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8 text-[#11311F]">
             Save the memory. <br />
-            <span className="text-[#28A745]">Let go</span> of the guilt.
+            <span className="text-[#28A745]">Let go</span> of the paper.
           </h1>
           <p className="text-xl md:text-2xl text-[#4A5D4E] font-medium leading-tight mb-4">
             Binthere helps parents preserve what matters and release the rest with confidence.

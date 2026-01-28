@@ -8,7 +8,7 @@ const FinalCTA: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-6xl md:text-9xl font-black tracking-tighter leading-[0.85] mb-16 text-[#11311F]">
           Save the memory. <br />
-          <span className="text-[#28A745]">Let go</span> of the paper.
+          <span className="text-[#28A745]">Let go</span> with confidence.
         </h2>
         
         <div className="flex flex-col sm:flex-row justify-center gap-6">
