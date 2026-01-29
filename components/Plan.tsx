@@ -36,22 +36,22 @@ const Plan: React.FC = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-24 md:py-32 bg-[#F8F9F8] px-6 border-y border-[#E8EEE9]">
+    <section id="how-it-works" className="py-32 md:py-40 bg-gradient-to-b from-[#FEFBF7] to-[#FAF7F2] px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-24 text-[#11311F]">Five simple steps.</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
+        <h2 className="text-5xl md:text-7xl font-serif-title font-semibold tracking-tight mb-28 text-[#4A4A4A] text-center">Five simple steps.</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-10">
           {steps.map((step, idx) => (
             <div key={idx} className="relative group">
-              <div className="flex items-center gap-4 mb-6">
-                <span className="text-4xl font-black text-[#28A745] tracking-tighter">{step.number}</span>
-                <div className="h-px flex-grow bg-[#E8EEE9] group-hover:bg-[#28A745] transition-colors duration-500"></div>
+              <div className="flex items-center gap-4 mb-8">
+                <span className="text-4xl font-bold text-[#87A96B] tracking-tight">{step.number}</span>
+                <div className="h-px flex-grow bg-[#E8E0D5] group-hover:bg-[#87A96B] transition-colors duration-500"></div>
               </div>
               <div>
-                <h3 className="text-3xl font-extrabold mb-4 text-[#11311F]">{step.title}</h3>
-                <p className="text-lg text-[#4A5D4E] font-medium leading-relaxed mb-3">
+                <h3 className="text-2xl md:text-3xl font-serif-title font-semibold mb-5 text-[#4A4A4A]">{step.title}</h3>
+                <p className="text-base md:text-lg text-[#6B6B6B] font-normal mb-4" style={{ lineHeight: '1.7' }}>
                   {step.body}
                 </p>
-                <p className="text-base text-[#6B7C6E] font-medium italic leading-relaxed">
+                <p className="text-sm md:text-base text-[#8B8B8B] font-normal italic" style={{ lineHeight: '1.7' }}>
                   {step.note}
                 </p>
               </div>

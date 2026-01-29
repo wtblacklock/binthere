@@ -3,45 +3,43 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-40 pb-24 md:pt-56 md:pb-32 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <div className="max-w-xl">
-          <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8 text-[#11311F]">
+    <section className="pt-48 pb-32 md:pt-64 md:pb-40 px-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="max-w-2xl">
+          <h1 className="text-6xl md:text-8xl font-serif-title font-semibold tracking-tight leading-[1.15] mb-8 text-[#4A4A4A]">
             Save the memory. <br />
-            <span className="text-[#28A745]">Let go</span> of the paper.
+            <span className="text-[#87A96B]">Let go</span> of the paper.
           </h1>
-          <p className="text-xl md:text-2xl text-[#4A5D4E] font-medium leading-tight mb-4">
+          <p className="text-xl md:text-2xl text-[#6B6B6B] font-normal leading-relaxed mb-6" style={{ lineHeight: '1.7' }}>
             Binthere helps parents preserve what matters and release the rest with confidence.
           </p>
-          <p className="text-[#6B7C6E] font-normal mb-10 text-lg">
+          <p className="text-lg md:text-xl text-[#8B8B8B] font-normal mb-12 leading-relaxed" style={{ lineHeight: '1.7' }}>
             Capture it once. You're good to let the paper go.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-[#28A745] text-white px-10 py-5 rounded-md text-lg font-extrabold hover:bg-[#1E7E34] transition-all shadow-xl shadow-[#28A745]/20">
+          <div className="flex flex-col sm:flex-row gap-5">
+            <button className="bg-gradient-to-r from-[#87A96B] to-[#6B8E5A] text-white px-10 py-5 rounded-full text-base font-medium hover:shadow-lg transition-all duration-300 shadow-md">
               Try it free
             </button>
-            <button className="bg-white border-2 border-[#E8EEE9] text-[#11311F] px-10 py-5 rounded-md text-lg font-bold hover:bg-[#F8F9F8] transition-all">
+            <button className="bg-[#FEFBF7] border-2 border-[#E8E0D5] text-[#5A5A5A] px-10 py-5 rounded-full text-base font-medium hover:bg-[#FAF7F2] transition-all duration-300 shadow-sm">
               See how it works
             </button>
           </div>
         </div>
         
         <div className="relative">
-          <div className="absolute -top-10 -right-10 w-64 h-64 bg-[#D4E7D0] rounded-full filter blur-3xl opacity-30 -z-10"></div>
           <div className="relative group">
-            <div className="absolute -inset-2 bg-gradient-to-tr from-[#28A745] to-transparent rounded-2xl -z-10 opacity-20 transform rotate-1"></div>
             <img 
               src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1200&auto=format&fit=crop" 
               alt="Child's artwork" 
-              className="w-full aspect-[4/3] object-cover rounded-xl shadow-2xl border-4 border-white"
+              className="w-full aspect-[4/3] object-cover rounded-3xl shadow-xl"
             />
-            <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-lg shadow-2xl border border-[#E8EEE9] max-w-[280px] hidden md:block">
+            <div className="absolute -bottom-6 -left-6 md:-bottom-10 md:-left-10 bg-[#FEFBF7] p-5 md:p-7 rounded-2xl shadow-xl border border-[#E8E0D5] max-w-[260px] md:max-w-[300px]">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-3 h-3 bg-[#28A745] rounded-full"></div>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-[#6B7C6E]">IN THE VAULT! You may recycle now.</span>
+                <div className="w-3 h-3 bg-gradient-to-br from-[#87A96B] to-[#6B8E5A] rounded-full"></div>
+                <span className="text-[11px] font-medium uppercase tracking-wider text-[#8B8B8B]">IN THE VAULT! You may recycle now.</span>
               </div>
-              <div className="h-2 w-full bg-[#F8F9F8] rounded-full mb-2"></div>
-              <div className="h-2 w-2/3 bg-[#F8F9F8] rounded-full"></div>
+              <div className="h-2 w-full bg-[#F0EDE5] rounded-full mb-2"></div>
+              <div className="h-2 w-2/3 bg-[#F0EDE5] rounded-full"></div>
             </div>
           </div>
         </div>

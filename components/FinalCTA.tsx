@@ -3,19 +3,18 @@ import React from 'react';
 
 const FinalCTA: React.FC = () => {
   return (
-    <section className="py-32 md:py-64 px-6 text-center bg-white relative overflow-hidden">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[#D4E7D0]/20 rounded-full blur-[120px] -z-10"></div>
+    <section className="py-40 md:py-64 px-8 text-center bg-[#FEFBF7] relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-6xl md:text-9xl font-black tracking-tighter leading-[0.85] mb-16 text-[#11311F]">
+        <h2 className="text-6xl md:text-9xl font-serif-title font-semibold tracking-tight leading-[1.15] mb-20 text-[#4A4A4A]">
           Save the memory. <br />
-          <span className="text-[#28A745]">Let go</span> with confidence.
+          <span className="text-[#87A96B]">Let go</span> with confidence.
         </h2>
         
         <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <button className="bg-[#28A745] text-white px-14 py-6 rounded-md text-xl font-black hover:bg-[#1E7E34] transition-all shadow-2xl shadow-[#28A745]/30 uppercase tracking-widest">
+          <button className="bg-gradient-to-r from-[#87A96B] to-[#6B8E5A] text-white px-12 py-5 rounded-full text-base font-medium hover:shadow-lg transition-all duration-300 shadow-md">
             Try it free
           </button>
-          <button className="bg-white border-2 border-[#E8EEE9] text-[#11311F] px-14 py-6 rounded-md text-xl font-black hover:bg-[#F8F9F8] transition-all uppercase tracking-widest">
+          <button className="bg-[#FEFBF7] border-2 border-[#E8E0D5] text-[#5A5A5A] px-12 py-5 rounded-full text-base font-medium hover:bg-[#FAF7F2] transition-all duration-300 shadow-sm">
             See how it works
           </button>
         </div>

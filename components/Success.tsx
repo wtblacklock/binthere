@@ -10,34 +10,34 @@ const Success: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-[#11311F] text-white px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+    <section className="py-32 md:py-40 bg-gradient-to-br from-[#F0EDE5] to-[#E8E0D5] px-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <h2 className="text-5xl md:text-6xl font-extrabold tracking-tighter leading-tight mb-12">
+          <h2 className="text-5xl md:text-6xl font-serif-title font-semibold tracking-tight leading-[1.15] mb-14 text-[#4A4A4A]">
             A calmer home and a meaningful record of growth.
           </h2>
-          <ul className="space-y-8">
+          <ul className="space-y-7">
             {bullets.map((bullet, idx) => (
               <li key={idx} className="flex items-start gap-5 group">
-                <div className="mt-1 w-6 h-6 bg-[#28A745] flex-shrink-0 flex items-center justify-center rounded-sm group-hover:scale-110 transition-transform">
+                <div className="mt-1 w-6 h-6 bg-gradient-to-br from-[#87A96B] to-[#6B8E5A] flex-shrink-0 flex items-center justify-center rounded-lg group-hover:scale-110 transition-transform duration-300 shadow-sm">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M5 13l4 4L19 7" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <span className="text-xl text-[#A0B0A5] font-bold leading-tight">{bullet}</span>
+                <span className="text-lg md:text-xl text-[#6B6B6B] font-normal" style={{ lineHeight: '1.7' }}>{bullet}</span>
               </li>
             ))}
           </ul>
         </div>
         <div className="relative">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-4">
-               <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=400&auto=format&fit=crop" className="rounded-xl w-full h-[320px] object-cover border-4 border-[#1A432D]" alt="Children's artwork" />
-               <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=400&auto=format&fit=crop" className="rounded-xl w-full h-[200px] object-cover border-4 border-[#1A432D]" alt="Kids drawing" />
+          <div className="grid grid-cols-2 gap-5">
+            <div className="space-y-5">
+               <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=400&auto=format&fit=crop" className="rounded-3xl w-full h-[320px] object-cover shadow-xl" alt="Children's artwork" />
+               <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=400&auto=format&fit=crop" className="rounded-3xl w-full h-[200px] object-cover shadow-xl" alt="Kids drawing" />
             </div>
-            <div className="space-y-4 pt-12">
-               <img src="https://images.unsplash.com/photo-1453749024858-4bca89bd9edc?q=80&w=400&auto=format&fit=crop" className="rounded-xl w-full h-[200px] object-cover border-4 border-[#1A432D]" alt="Child's art" />
-               <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=400&auto=format&fit=crop" className="rounded-xl w-full h-[320px] object-cover border-4 border-[#1A432D]" alt="Children's artwork collection" />
+            <div className="space-y-5 pt-12">
+               <img src="https://images.unsplash.com/photo-1453749024858-4bca89bd9edc?q=80&w=400&auto=format&fit=crop" className="rounded-3xl w-full h-[200px] object-cover shadow-xl" alt="Child's art" />
+               <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=400&auto=format&fit=crop" className="rounded-3xl w-full h-[320px] object-cover shadow-xl" alt="Children's artwork collection" />
             </div>
           </div>
         </div>
