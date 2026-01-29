@@ -10,8 +10,8 @@ const Success: React.FC = () => {
   ];
 
   return (
-    <section className="py-32 md:py-40 bg-gradient-to-br from-[#F0EDE5] to-[#E8E0D5] px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <section className="py-32 md:py-40 bg-gradient-to-br from-[#F0EDE5] to-[#E8E0D5]">
+      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="text-5xl md:text-6xl font-serif-title font-semibold tracking-tight leading-[1.15] mb-14 text-[#4A4A4A]">
             A calmer home and a meaningful record of growth.

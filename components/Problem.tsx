@@ -3,8 +3,8 @@ import React from 'react';
 
 const Problem: React.FC = () => {
   return (
-    <section className="py-32 md:py-40 bg-gradient-to-br from-[#F5F1EA] to-[#F0EDE5] px-8">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-32 md:py-40 bg-gradient-to-br from-[#F5F1EA] to-[#F0EDE5]">
+      <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <img 

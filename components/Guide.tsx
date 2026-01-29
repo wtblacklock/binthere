@@ -3,9 +3,9 @@ import React from 'react';
 
 const Guide: React.FC = () => {
   return (
-    <section className="py-32 md:py-48 px-8 overflow-hidden bg-[#FEFBF7]">
-      <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
-        <div className="max-w-3xl mb-20">
+    <section className="py-32 md:py-48 overflow-hidden bg-[#FEFBF7]">
+      <div className="max-w-7xl mx-auto px-8 flex flex-col items-center text-center">
+        <div className="max-w-5xl mb-20">
           <span className="text-[#A8A8A8] font-medium uppercase tracking-wider text-xs mb-6 block">Our Solution</span>
           <h2 className="text-5xl md:text-7xl font-serif-title font-semibold tracking-tight mb-10 text-[#4A4A4A] leading-[1.15]">
             You don't need more storage. <br />

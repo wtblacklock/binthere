@@ -3,8 +3,9 @@ import React from 'react';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="py-32 md:py-48 px-8 text-center">
-      <div className="max-w-5xl mx-auto bg-gradient-to-br from-[#87A96B] to-[#6B8E5A] text-white rounded-3xl p-16 md:p-24 overflow-hidden relative shadow-xl">
+    <section className="py-32 md:py-48 text-center">
+      <div className="max-w-7xl mx-auto px-8">
+        <div className="max-w-5xl mx-auto bg-gradient-to-br from-[#87A96B] to-[#6B8E5A] text-white rounded-3xl p-16 md:p-24 overflow-hidden relative shadow-xl">
         <h2 className="text-5xl md:text-7xl font-serif-title font-semibold tracking-tight leading-[1.15] mb-12 relative z-10">
           Clear the space. Keep the moments.
         </h2>
@@ -13,6 +14,7 @@ const CTASection: React.FC = () => {
             Try it free
           </button>
           <p className="text-white/90 font-normal tracking-wide text-base">No credit card. Takes less than a minute.</p>
+        </div>
         </div>
       </div>
     </section>

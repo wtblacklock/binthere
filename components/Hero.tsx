@@ -3,8 +3,8 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-48 pb-32 md:pt-64 md:pb-40 px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+    <section className="pt-48 pb-32 md:pt-64 md:pb-40">
+      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div className="max-w-2xl">
           <h1 className="text-6xl md:text-8xl font-serif-title font-semibold tracking-tight leading-[1.15] mb-8 text-[#4A4A4A]">
             Save the memory. <br />

@@ -36,8 +36,8 @@ const Plan: React.FC = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-32 md:py-40 bg-gradient-to-b from-[#FEFBF7] to-[#FAF7F2] px-8">
-      <div className="max-w-7xl mx-auto">
+    <section id="how-it-works" className="py-32 md:py-40 bg-gradient-to-b from-[#FEFBF7] to-[#FAF7F2]">
+      <div className="max-w-7xl mx-auto px-8">
         <h2 className="text-5xl md:text-7xl font-serif-title font-semibold tracking-tight mb-28 text-[#4A4A4A] text-center">Five simple steps.</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-10">
           {steps.map((step, idx) => (
